@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  text-align: center;
+  background-color: lightblue;
+}
+
+main div {
+  margin: 0;
+  padding: 20px;
+}
+
+table {
+  min-height: 300px;
+  min-width: 300px;
+  margin: 50px auto;
+  background-color: black;
+}
+
+tr {
+  height: 50px;
+  background-color: white;
+}
+
+td {
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+}
