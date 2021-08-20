@@ -14,24 +14,27 @@
     </div>
     <table id="board">
       <tr>
-        <td data-row="1" data-col="1"></td>
-        <td data-row="1" data-col="2"></td>
-        <td data-row="1" data-col="3"></td>
+        <td class="board-space" data-row="1" data-col="1"> </td>
+        <td class="board-space" data-row="1" data-col="2"> </td>
+        <td class="board-space" data-row="1" data-col="3"> </td>
       </tr>
       <tr>
-        <td data-row="2" data-col="1"></td>
-        <td data-row="2" data-col="2"></td>
-        <td data-row="2" data-col="3"></td>
+        <td class="board-space" data-row="2" data-col="1"> </td>
+        <td class="board-space" data-row="2" data-col="2"> </td>
+        <td class="board-space" data-row="2" data-col="3"> </td>
       </tr>
       <tr>
-        <td data-row="3" data-col="1"></td>
-        <td data-row="3" data-col="2"></td>
-        <td data-row="3" data-col="3"></td>
+        <td class="board-space" data-row="3" data-col="1"> </td>
+        <td class="board-space" data-row="3" data-col="2"> </td>
+        <td class="board-space" data-row="3" data-col="3"> </td>
       </tr>
     </table>
     <div>
-      <p>It's currently <span id="player-name">X</span>'s turn.</p>
+      <p id="turn-indicator">It's currently <span id="player-name">X</span>'s turn.</p>
+      <p id="winner-indicator" hidden></p>
+      <button id="reset-button">Reset Game</button>
     </div>
+    <script src="script.js"></script>
   </main>
 </body>
 </html>
